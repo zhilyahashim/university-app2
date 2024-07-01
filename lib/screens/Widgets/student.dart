@@ -372,12 +372,12 @@ class _StudentPageState extends State<StudentPage>     with SingleTickerProvider
                   icon: Icon(Icons.table_chart),
                   onPressed: () => _scaffoldKey.currentState!.openDrawer(),
                 ),
-                // onTap: () => Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => StudentMarksPage(),
-                //   ),
-                // ),
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => GetTimetable('timetable'),
+                  ),
+                ),
               ),
               ListTile(
                 title: const Text('The Student Marks'),
