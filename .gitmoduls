@@ -1,0 +1,6 @@
+
+[submodule "knu"]
+    path = knu
+    url = https://github.com/zhilyahashim/university-app2.git
+
+
